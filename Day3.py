@@ -2,14 +2,6 @@ import os
 cur_dir = os.getcwd()
 path = cur_dir + '/AdventCode/input3.txt'
 
-'''
-a = 'asvs'
-first = set(a[:len(a)//2])
-second = set(a[len(a)//2 : ])
-print(first, second)
-print(type(first.intersection(second)))
-print(first.intersection(second).pop())
-'''
 
 # 1
 with open(path, 'r') as file:
