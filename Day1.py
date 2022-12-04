@@ -1,7 +1,7 @@
 import os
 
 cur_dir = os.getcwd()
-path = cur_dir + '/AdventCode/input'
+path = cur_dir + '/AdventCode/input1'
 
 # 1
 max_calories = 0
