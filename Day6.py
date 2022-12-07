@@ -1,6 +1,4 @@
 import os
-from collections import deque
-from typing import List
 
 cur_dir = os.getcwd()
 path = cur_dir + '/AdventCode/input6.txt'
