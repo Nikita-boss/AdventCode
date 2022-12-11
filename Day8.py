@@ -101,7 +101,6 @@ def find_distance(data: List[List[int]]) -> int:
                         right_distance += 1
                         break
 
-                if row == 3 and column == 2: print('\n',top_distance, bottom_distance, left_distance, right_distance, '\n')
                 tmp.append(top_distance * bottom_distance * left_distance * right_distance)
 
 
@@ -121,3 +120,4 @@ if __name__ == '__main__':
     # Part 2
     distance = find_distance(data)
     print(distance)
+
