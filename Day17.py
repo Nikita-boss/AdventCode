@@ -240,8 +240,7 @@ def tetris(flow):
             shape.clear()
             grid.height = max(atHeight + shape.get_height(), grid.height)
             shape_counter += 1
-            if shape_counter > 1_000_000 and not shape_counter % 100_000:
-                print(shape_counter)
+
             if shape_counter == 1_000_000_000_000: 
             #if shape_counter == 2022:
                 return grid.get_height() + sum(grid.heights)
